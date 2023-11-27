@@ -6,7 +6,7 @@ do qual pode ser salvo no banco de dados o nome, numero e alguma observação qu
 
 O banco de dados está disponível no arquivo como "Agenda".
 
-# Como fazer o projeto funcionar ?
+# Configurações
 
 Como esse projeto não está em uma plataforma online, precisamos rodar ele através do XAMPP, para que dessa forma crie um banco de dados e um Local Host.
 
@@ -20,5 +20,18 @@ Segue o passo a passo para o funcionamento correto do projeto:
 2. Baixe o projeto disponível nesse repositório.
 3. Esse projeto deve ser movido para o arquivo htdocs dentro dos arquivos do XAMPP. A disposição desse arquivo provavelmente estará em "C:\xampp\htdocs".
 4. Abra o XAMPP e ative as opções "Apache" e MySQL. Após, pesquise em seu navegador o host "127.0.0.1" ou "localhost".
+5. Nessa tela, você poderá acessar o phpMyAdmin, onde o nosso banco de dados deverá ser exportado.
+
+
+## Exportando o banco de dados
+1. Dentro do phpMyAdmin, crie um banco de dados chamado "Agenda".
+2. Acesse o banco de dados e clique em "exportar".
+3. Selecione o arquivo em que o documento com as tabelas estão contidadas.
+4. Pronto! Seu banco de dados está exportado e pode ser acessados pelo projeto.
+
+## Acessando o projeto
+1. Acesse novamente seu navegador e pesquise pelo link "127.0.0.1/agenda-contatos-DW-main"
+2. Pronto! O projeto estará funcionando corretamente.
+
 
    
